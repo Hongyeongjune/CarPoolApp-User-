@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.cardoners">
+
+    <uses-permission android:name="android.permission.DIAL_PHONE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- android:theme="@style/AppTheme"   "@style/Theme.AppCompat.NoActionBar" -->
+        <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".AgreeActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DriverinfoActivity" />
+        <activity android:name=".DrivingActivity" />
+        <activity
+            android:name=".DrivingstartActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".RequestActivity" />
+        <activity android:name=".UserinfoActivity" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".AskActivity" />
+        <activity android:name=".NoticeActivity" />
+        <activity
+            android:name=".WaitingActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".VolunteerActivity" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Agree2Activity" />
+
+        <service android:name="org.eclipse.paho.android.service.MqttService" />
+        <service
+            android:name=".mqtt.MqttMessageService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity android:name=".Volunteer2Activity"></activity>
+    </application>
+
+</manifest>

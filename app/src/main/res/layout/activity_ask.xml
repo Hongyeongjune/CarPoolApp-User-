@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AskActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/text_ask1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="문의하기"
+            android:textColor="#FF9933"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/text_ask2"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="#FF9933"
+            android:gravity="center"
+            android:text="Help 궁금한 내용을 선택해주세요."
+            android:textColor="#FFFFFF"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/button_ask1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#00ff0000"
+            android:gravity="center_vertical"
+            android:text="> 가입/계정/탈퇴"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layerType="software"
+            android:src="@drawable/button2" />
+
+        <Button
+            android:id="@+id/button_ask2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="#00ff0000"
+            android:gravity="center_vertical"
+            android:text="> 서류승인/풀서비스"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layerType="software"
+            android:src="@drawable/button2" />
+
+        <Button
+            android:id="@+id/button_ask3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="#00ff0000"
+            android:gravity="center_vertical"
+            android:text="> 풀러스 이용수칙"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layerType="software"
+            android:src="@drawable/button2" />
+
+        <Button
+            android:id="@+id/button_ask4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="#00ff0000"
+            android:gravity="center_vertical"
+            android:text="> 카풀수익/정산"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layerType="software"
+            android:src="@drawable/button2" />
+
+        <Button
+            android:id="@+id/button_ask5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="#00ff0000"
+            android:gravity="center_vertical"
+            android:text="> 이벤트/혜택"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layerType="software"
+            android:src="@drawable/button2" />
+
+        <Button
+            android:id="@+id/button_ask6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="#00ff0000"
+            android:gravity="center_vertical"
+            android:text="> 기타/취재/건의"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layerType="software"
+            android:src="@drawable/button2" />
+
+        <Button
+            android:id="@+id/button_ask7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="#00ff0000"
+            android:gravity="center_vertical"
+            android:text="> 지난 여정 문의"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

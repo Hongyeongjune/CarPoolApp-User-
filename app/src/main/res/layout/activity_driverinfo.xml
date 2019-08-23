@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.cardoners.DrivingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/text_driverinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="드라이버 등록"
+                android:textColor="#FF9933"
+                android:textSize="25dp"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="46dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="517dp"
+            android:background="#EEEEEE"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="500dp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/text_driver_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="150dp"
+                        android:text="성명"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/edit_driver_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/text_driver_phonenum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="핸드폰 번호"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/edit_driver_phonenum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:ems="10"
+                        android:inputType="number" />
+
+
+                    <TextView
+                        android:id="@+id/text_driver_birth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="생년월일"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/eidt_driver_birth"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:ems="10"
+                        android:hint="1980.01.01"
+                        android:inputType="date" />
+
+                    <TextView
+                        android:id="@+id/text_driver_cartype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="차 종류"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/edit_driver_cartype"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/text_driver_carnum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="차 번호"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/edit_driver_carnum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/text_driver_licensenum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="자격증 번호"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/edit_driver_licensenum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/text_driver_licensedate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="취득일"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/edit_driver_licensedate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:ems="10"
+                        android:hint="1980.01.01"
+                        android:inputType="date" />
+
+                    <TextView
+                        android:id="@+id/text_driver_company"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="회사명"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/edit_driver_company"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/driverinfo_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FF9933"
+            android:text="등록하기"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="455dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

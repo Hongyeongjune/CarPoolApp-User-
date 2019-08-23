@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9933"
+    tools:context="com.example.user.cardoners.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_login1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:text="운전자 유형을 선택해주세요"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                tools:layout_editor_absoluteX="113dp"
+                tools:layout_editor_absoluteY="46dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/volunteer"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/button_shape"
+                android:text="봉사자"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:id="@+id/one_taxi"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/button_shape"
+                android:text="100원 택시"
+                android:textColor="#FFFFFF"
+                tools:layout_editor_absoluteX="151dp"
+                tools:layout_editor_absoluteY="169dp" />
+
+            <Button
+                android:id="@+id/disable_taxi"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/button_shape"
+                android:text="장애인 택시"
+                android:textColor="#FFFFFF"
+                tools:layout_editor_absoluteX="151dp"
+                tools:layout_editor_absoluteY="169dp" />
+
+
+            <!--
+            <Button
+            android:id="@+id/login_next"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"
+            android:text="next"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="151dp"
+            tools:layout_editor_absoluteY="169dp" />
+
+            -->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/activity_volunteer2"
+            android:icon="@drawable/ic_menu_add"
+            android:title="내 정보" />
+        <item
+            android:id="@+id/activity_history"
+            android:icon="@drawable/ic_menu_search"
+            android:title="운행내역" />
+        <item
+            android:id="@+id/activity_notice"
+            android:icon="@drawable/ic_menu_info_details"
+            android:title="공지사항" />
+        <item
+            android:id="@+id/activity_ask"
+            android:icon="@drawable/ic_menu_help"
+            android:title="문의하기" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_close_clear_cancel"
+                android:title="로그아웃" />
+        </menu>
+    </item>
+
+
+</menu>

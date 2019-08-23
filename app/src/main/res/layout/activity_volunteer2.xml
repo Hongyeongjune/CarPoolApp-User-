@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    android:weightSum="11">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="드라이버 정보"
+            android:textColor="#FF9933"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="성명"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/text_volunteer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="없음"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="핸드폰 번호"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/text_volunteer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="없음"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="생년월일"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/text_volunteer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="없음"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="차 종류"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/text_volunteer4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="없음"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="차 번호"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/text_volunteer5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="없음"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="면허번호"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/text_volunteer6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="없음"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="면허종류"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/text_volunteer7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="없음"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="면허 인증번호"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/text_volunteer8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="없음"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="차 색상"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/text_volunteer9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="없음"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+</LinearLayout>
